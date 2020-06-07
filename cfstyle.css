@@ -1,0 +1,68 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url(cfbg.jpg);
+	background-position: cover;
+	color: white;
+	font-family: Sans-serif;
+
+}
+
+.contact-text
+{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-text h1
+{
+	font-size: 32px;
+	line-height: 20px;
+}
+
+.contact-text h2
+{
+	font-size: 25px;
+}
+
+.form
+{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	border: none;
+	border-bottom: 0.1px solid white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 2px 3px;
+	font-size: 18px;
+}
+
+input
+{
+	height: 45px;
+}
+
+form.submit
+{
+	background-color: #ff5722;
+	border-color: transparent;
+	letter-spacing: 2px;
+	color: orange;
+}
+
+.btm
+{
+	text-decoration: none;
+	border-radius: 1px;
+	float: right;
+}

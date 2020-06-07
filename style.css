@@ -1,0 +1,120 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: url(indexbg.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-family: "Roboto", sans-seriff;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+
+}
+
+.logo img
+{
+	margin-top: 8px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 150px;
+	align-self: center;
+	text-shadow: 0px 4px 12px 15px rgba(0, 0, 0, 0.5);
+	top: -15%;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-family: "Verdana";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 275px;
+}
+
+.button
+{
+	margin-top: 30px;
+	margin-left: 550px;
+	align-self: center;
+	text-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn
+{
+	border: 1px darkorange;
+	border-radius: 25px;
+	padding: 10px 30px;
+	text-decoration: none;
+	box-shadow: 0px 5px 10px 15px 0px rgba(0,0,0,0.6);
+	color: white;
+	margin-right: 5px;
+	font-size: 20px;
+	background-color: darkorange;
+}
+
+.btn:hover
+{
+	background-color: blue;
+	box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	font-size: 19.5px;
+	transition: 0.3s;
+}
+.subtext{
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+}

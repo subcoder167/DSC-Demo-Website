@@ -1,0 +1,15 @@
+
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+	.square {
+		height: 38px;
+		width: 61px;
+		padding-left: 25px;
+	}
+	.logo{
+		padding: 50%;
+	}
